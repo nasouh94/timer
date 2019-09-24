@@ -5,8 +5,8 @@ function timer(input) {
     return console.log("error")
    
   }
-  if (input != Number){
-    return console.log("error")
+  // if (input != Number){
+  //   return console.log("error")
   }
   for (let i = 0; i < input.length; i++) {
     setTimeout(function(){
@@ -15,7 +15,8 @@ function timer(input) {
     
   }
   console.log(`Alarm will beep in ${input} second(s)`)
-}
+
+
   
 
 timer(input)
@@ -23,4 +24,3 @@ timer(input)
 // add a timeout function 
 // multiply number by 1000
 // returns the sound after the time put in by user 
-
